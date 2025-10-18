@@ -1,0 +1,31 @@
+/* src/styles/variables.css */
+:root {
+  /* Light page */
+  --color-page: #f8fafd;
+  --color-bg: #ffffff;
+  --color-surface: #f5f7fb;
+  --color-surface-2: #eef2f8;
+
+  --color-ink: #0f172a; /* title */
+  --color-ink-strong: #1e293b;
+  --color-ink-dim: #6b7280; /* paragraph */
+
+  --color-primary: #6c8cff;
+  --color-primary-600: #516ff2;
+  --color-primary-700: #3a5ae6;
+
+  --color-navy: #1e2d5c;
+
+  --color-text: #0f172a;
+  --color-text-dim: #64748b;
+
+  --color-border: #e6eaf2;
+  --color-border-soft: #eef1f6;
+
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+}

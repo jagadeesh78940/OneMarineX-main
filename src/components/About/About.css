@@ -1,0 +1,56 @@
+/* src/components/About/About.css */
+.about {
+  background: #f9fafb;
+  padding: 80px 24px;
+}
+
+.about__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about__header {
+  margin-bottom: 24px;
+}
+
+.about__label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.about__label--accent {
+  color: #ff6b35;
+}
+
+.about__title {
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.2;
+  margin: 0 0 32px 0;
+  max-width: 900px;
+}
+
+.about__description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #6b7280;
+  margin: 0;
+  max-width: 1000px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 24px;
+  }
+
+  .about__title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .about__description {
+    font-size: 15px;
+  }
+}
